@@ -1,0 +1,29 @@
+body{
+	background-image: url(background.png);
+	background-size: cover;
+}
+h2,p {
+	color:#FFAAAA;
+	text-align: center;
+	border: 5px solid #AA3939;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-family: "Times Roman";
+}
+
+li{
+	list-style: none;
+	color: #FFAAAA;
+	display: inline-block;
+	font-weight: bold;
+	text-transform: capitalize;
+	list: square;
+}
+
+.webtext{
+	border: 0.1px dashed greenyellow;
+}
+
+.active{
+	color: skyblue;
+}
